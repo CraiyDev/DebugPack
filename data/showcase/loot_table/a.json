@@ -1,0 +1,130 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "children": [],
+                    "name": "minecraft:emerald",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "enchantment": "minecraft:aqua_affinity",
+                            "formula": "ore_drops",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0
+                            },
+                            "count": {
+                                "type": "uniform",
+                                "min": 3,
+                                "max": 6
+                            },
+                            "add": false,
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "using_converts_to": {
+                                        "id": "minecraft:granite"
+                                    }
+                                },
+                                "minecraft:item_name": "",
+                                "minecraft:damage": 100,
+                                "minecraft:unbreakable": 50
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "enchantment": "minecraft:aqua_affinity",
+                            "formula": "ore_drops",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0
+                            },
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "children": [],
+                    "name": "minecraft:tuff",
+                    "weight": 5,
+                    "functions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "children": [],
+                    "name": "minecraft:diamond_sword"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tuff",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tuff",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tuff",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tuff",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

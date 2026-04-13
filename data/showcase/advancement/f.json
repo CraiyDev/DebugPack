@@ -1,0 +1,15 @@
+{
+    "criteria": {},
+    "display": {
+        "title": {
+            "translate": "Test",
+            "color": "#5426ff"
+        },
+        "icon": {
+            "id": "minecraft:stone"
+        }
+    },
+    "rewards": {
+        "function": "showcase:a"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "test": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "minecraft:speed": {
+                            "amplifier": 10,
+                            "duration": {},
+                            "ambient": true,
+                            "visible": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": true,
+    "display": {
+        "icon": {
+            "id": "minecraft:granite"
+        },
+        "title": "Test",
+        "description": "Fancy description alalasdsadasdasdas",
+        "frame": "goal"
+    },
+    "parent": "showcase:test_parent"
+}

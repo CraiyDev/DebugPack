@@ -1,0 +1,11 @@
+{
+    "criteria": {},
+    "parent": "showcase:test_child_parent",
+    "display": {
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "title": "My new fancy advancement",
+        "description": "a"
+    }
+}

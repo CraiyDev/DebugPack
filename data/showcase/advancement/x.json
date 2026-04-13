@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "hjhlkjh": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "title": "Test",
+        "description": "ABC",
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "frame": "challenge"
+    },
+    "parent": ""
+}

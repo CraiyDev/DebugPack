@@ -1,0 +1,9 @@
+{
+    "criteria": {},
+    "parent": "showcase:x",
+    "display": {
+        "icon": {
+            "id": "minecraft:granite"
+        }
+    }
+}

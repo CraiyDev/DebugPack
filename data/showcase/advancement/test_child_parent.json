@@ -1,0 +1,9 @@
+{
+    "criteria": {},
+    "parent": "showcase:test",
+    "display": {
+        "icon": {
+            "id": "minecraft:grass_block"
+        }
+    }
+}

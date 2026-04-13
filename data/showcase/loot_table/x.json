@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_stal",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "gbg:throwables/molotov_cocktail",
+                                "minecraft:item_name": {
+                                    "italic": false,
+                                    "text": "Molotov Cocktail"
+                                },
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "explode_on_impact": 1,
+                                        "impact_type": 2,
+                                        "is_throwable": 1,
+                                        "throwable_life": 200
+                                    }
+                                },
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "type": "generic"
+}

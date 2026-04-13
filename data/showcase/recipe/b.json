@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.7,
+    "group": "iron_ingot",
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "minecraft:item/magic_shield_block",
+            "minecraft:custom_name": {
+                "color": "white",
+                "text": "Magic Shield",
+                "italic": 0
+            },
+            "minecraft:custom_data": {
+                "Sorcery": "shield"
+            }
+        }
+    },
+    "ingredient": "minecraft:acacia_planks"
+}

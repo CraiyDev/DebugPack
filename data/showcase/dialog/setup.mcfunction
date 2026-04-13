@@ -1,0 +1,2 @@
+tellraw @s [{"text":"","color":"white"},{"text":"0","font":"sheikah","color":"aqua"},{"text":" The Breath of the Wild Datapack by Craiy & Joris was installed! "},{"text":"0","font":"sheikah","color":"aqua"}]
+tag @s add botw_setup

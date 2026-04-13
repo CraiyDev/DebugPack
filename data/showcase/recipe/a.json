@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.7,
+    "group": "iron_ingot",
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "minecraft:item/wands/wand",
+            "minecraft:custom_name": {
+                "color": "light_purple",
+                "text": "Wand",
+                "italic": 0
+            },
+            "minecraft:custom_data": {
+                "Sorcery": "wand",
+                "Spell": "none"
+            }
+        }
+    },
+    "pattern": [
+        "# #",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:tuff"
+    },
+    "ingredient": "#minecraft:planks"
+}

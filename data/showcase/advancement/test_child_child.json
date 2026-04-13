@@ -1,0 +1,12 @@
+{
+    "criteria": {},
+    "parent": "showcase:test_child",
+    "display": {
+        "icon": {
+            "id": "minecraft:warped_fungus"
+        },
+        "title": "Fungusify",
+        "description": "Eat to many fungus",
+        "frame": "challenge"
+    }
+}

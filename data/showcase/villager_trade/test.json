@@ -1,0 +1,8 @@
+{
+    "wants": {
+        "id": "minecraft:air"
+    },
+    "gives": {
+        "id": "minecraft:air"
+    }
+}

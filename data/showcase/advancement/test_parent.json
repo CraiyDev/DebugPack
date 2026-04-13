@@ -1,0 +1,10 @@
+{
+    "criteria": {},
+    "parent": "minecraft:adventure/arbalistic",
+    "display": {
+        "icon": {
+            "id": "minecraft:diorite",
+            "count": 3
+        }
+    }
+}

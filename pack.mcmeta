@@ -1,0 +1,25 @@
+{
+    "pack": {
+        "description": {
+            "text": "test",
+            "color": "#a83daa",
+            "extra": [],
+            "shadow_color": 4281241384
+        },
+        "pack_format": 95,
+        "min_format": 95
+    },
+    "_required_resourcepack": "RecordingRP",
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay/",
+                "min_format": 88,
+                "max_format": [
+                    93,
+                    1
+                ]
+            }
+        ]
+    }
+}

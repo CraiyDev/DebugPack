@@ -1,0 +1,306 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_stal",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "gbg:throwables/molotov_cocktail",
+                                "minecraft:item_name": {
+                                    "italic": false,
+                                    "text": "Molotov Cocktail"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Damage: "
+                                            },
+                                            {
+                                                "color": "red",
+                                                "text": "2"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Fuse Time: "
+                                            },
+                                            {
+                                                "color": "yellow",
+                                                "text": "200 ticks"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Effects: "
+                                            },
+                                            {
+                                                "color": "dark_aqua",
+                                                "text": "Lights Area on Fire"
+                                            }
+                                        ],
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "explode_on_impact": 1,
+                                        "impact_type": 2,
+                                        "is_throwable": 1,
+                                        "throwable_life": 200
+                                    }
+                                },
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_stal",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "gbg:throwables/smoke_grenade",
+                                "minecraft:item_name": {
+                                    "italic": false,
+                                    "text": "Smoke Grenade"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Damage: "
+                                            },
+                                            {
+                                                "color": "red",
+                                                "text": "0"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Fuse Time: "
+                                            },
+                                            {
+                                                "color": "yellow",
+                                                "text": "140 ticks"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Effects: "
+                                            },
+                                            {
+                                                "color": "dark_aqua",
+                                                "text": "Blindness (00:05)"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "color": "dark_aqua",
+                                                "text": "Slowness (00:05)"
+                                            }
+                                        ],
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "explode_on_impact": 0,
+                                        "impact_type": 5,
+                                        "is_throwable": 1,
+                                        "throwable_life": 140
+                                    }
+                                },
+                                "minecraft:max_stack_size": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_strad",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "gbg:medical/simple_bandage",
+                                "minecraft:item_name": {
+                                    "italic": false,
+                                    "text": "Simple Bandage"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Effects: "
+                                            },
+                                            {
+                                                "color": "dark_aqua",
+                                                "text": "Regeneration II (00:05)"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Use Time: "
+                                            },
+                                            {
+                                                "color": "yellow",
+                                                "text": "30 ticks"
+                                            }
+                                        ],
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "effect_type": 1,
+                                        "is_medical_item": 1,
+                                        "use_time": 30
+                                    }
+                                },
+                                "minecraft:max_stack_size": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_strad",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "gbg:medical/advanced_bandage",
+                                "minecraft:item_name": {
+                                    "italic": false,
+                                    "text": "Advanced Bandage"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Effects: "
+                                            },
+                                            {
+                                                "color": "dark_aqua",
+                                                "text": "Regeneration II (00:10)"
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "color": "gray",
+                                        "extra": [
+                                            {
+                                                "text": "Use Time: "
+                                            },
+                                            {
+                                                "color": "yellow",
+                                                "text": "30 ticks"
+                                            }
+                                        ],
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "gbg": {
+                                        "effect_type": 2,
+                                        "is_medical_item": 1,
+                                        "use_time": 30
+                                    }
+                                },
+                                "minecraft:max_stack_size": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "enchantment": "minecraft:aqua_affinity",
+                            "formula": "ore_drops",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0
+                            },
+                            "components": {
+                                "minecraft:item_model": "gbg:item/utilities/singlescrap",
+                                "minecraft:item_name": {
+                                    "text": "Single Scrap",
+                                    "color": "#fae114"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "enchantment": "minecraft:aqua_affinity",
+                            "formula": "ore_drops",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0
+                            },
+                            "components": {
+                                "minecraft:item_model": "gbg:item/utilities/scrapespile",
+                                "minecraft:item_name": {
+                                    "text": "Scrap Pile",
+                                    "color": "#fae114"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

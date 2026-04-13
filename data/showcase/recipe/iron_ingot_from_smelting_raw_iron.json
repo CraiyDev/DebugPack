@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.7,
+    "group": "iron_ingot",
+    "ingredient": "minecraft:raw_copper",
+    "result": {
+        "id": "minecraft:diorite",
+        "count": 1
+    },
+    "pattern": [
+        "#*#",
+        "###",
+        " #+"
+    ],
+    "key": {
+        "#": "minecraft:diorite",
+        "*": "minecraft:andesite",
+        "+": "minecraft:iron_ingot"
+    }
+}
